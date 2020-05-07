@@ -9,6 +9,6 @@ public class ProductEndpoint {
 
     @GetMapping("/allproducts")
     public String getAllProducts() {
-        return "Mijn Lijst met Producten";
+        return "Mijn Lijst met Producten is nu up to date";
     }
 }
